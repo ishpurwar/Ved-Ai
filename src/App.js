@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Login from "./components/loginUPO/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Translator from "./components/translator/Translator";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
+      {/* <Translator /> */}
     </div>
   );
 }
